@@ -15,7 +15,6 @@ import (
  */
 
 func main()  {
-
 	plaintext := []byte("demo")//需要加密的内容
 	//key iv 字节长度一定要16
 	key := []byte("demoKey123456789")[:aes.BlockSize]
